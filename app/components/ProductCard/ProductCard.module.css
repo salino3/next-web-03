@@ -1,0 +1,8 @@
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+
+  &:hover {
+    background-color: rgba(31, 161, 53, 0.5);
+  }
+}
