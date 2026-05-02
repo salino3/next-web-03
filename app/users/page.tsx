@@ -7,8 +7,8 @@ interface User {
 
 const UsersPage: React.FC = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users", {
-    // cache: 'no-store', // "no-store", new API call every refresh page
-    next: { revalidate: 10 }, // catching data for every user using the same data
+    cache: "no-store", // "no-store", new API call every refresh page
+    // next: { revalidate: 10 }, // catching data for every user using the same data
   });
   const users: User[] = await res.json();
 
