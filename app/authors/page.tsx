@@ -1,7 +1,8 @@
 import { query } from "@/lib/db";
+import { Author } from "@/types";
 
 export default async function AuthorsPage() {
-  let authors = [];
+  let authors: Author[] = [];
 
   try {
     /**
