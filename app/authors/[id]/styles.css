@@ -1,0 +1,8 @@
+/*  No rendered html out of 'notFound()' */
+.trigger404page .next-error-h1 {
+  color: red;
+}
+
+.containerPage {
+  border: solid;
+}
